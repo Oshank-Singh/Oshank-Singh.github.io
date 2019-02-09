@@ -13,6 +13,22 @@
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
     <body>
+
+      <div class="navigation">
+        <input type="checkbox" class="navigation_checkbox" id="check">
+        <label for="check" class="navigation_button"><span class="navigation_icon">&nbsp;</span></label>
+        <div class="navigation_image">&nbsp;</div>
+        <nav class="navigation_nav">
+          <ul class="navigation_list">
+            <li class="navigation_item"><a href="" class="navigation_link"><span class="navigation_span">01</span>About Natours</a></li>
+            <li class="navigation_item"><a href="" class="navigation_link"><span class="navigation_span">02</span>Your benefits</a></li>
+            <li class="navigation_item"><a href="" class="navigation_link"><span class="navigation_span">03</span>Popular tours</a></li>
+            <li class="navigation_item"><a href="" class="navigation_link"><span class="navigation_span">04</span>Stories</a></li>
+            <li class="navigation_item"><a href="" class="navigation_link"><span class="navigation_span">05</span>Book now</a></li>
+          </ul>
+        </nav>
+      </div>
+
         <header class="header">
           <div class="top-logo">
             <img src="img/logo-white.png" alt="Natours" class="logo">
@@ -95,7 +111,7 @@
             </div>
           </section>
 
-          <section class="section-tours">
+          <section class="section-tours" id="section-tours">
 
             <div class="u-center-text u-margin-bot-med">
               <h2 class="heading-secondary">
@@ -128,7 +144,7 @@
                       <div class="card_back">
                         <p class="card_back-only">Only</p>
                         <p class="card_back-price">Rs.1500</p>
-                        <a href="#" class="btn btn-white">Book now!</a>
+                        <a href="#popup" class="btn btn-white">Book now!</a>
                       </div>
                     </div>
                   </div>
@@ -156,7 +172,7 @@
                       <div class="card_back">
                         <p class="card_back-only">Only</p>
                         <p class="card_back-price">Rs.5000</p>
-                        <a href="#" class="btn btn-white">Book now!</a>
+                        <a href="#popup" class="btn btn-white">Book now!</a>
                       </div>
                     </div>
                   </div>
@@ -184,7 +200,7 @@
                       <div class="card_back">
                         <p class="card_back-only">Only</p>
                         <p class="card_back-price">Rs.3000</p>
-                        <a href="#" class="btn btn-white">Book now!</a>
+                        <a href="#popup" class="btn btn-white">Book now!</a>
                       </div>
                     </div>
                   </div>
@@ -237,7 +253,90 @@
                 </div>
               </div>
           </section>
+          <section class="section_book">
+            <div class="row">
+              <div class="book">
+                <div class="book_form">
+                  <form action="#" class="form">
+                    <div class="u-margin-bot-small">
+                      <h2 class="heading-secondary">
+                        Start booking now!
+                      </h2>
+                    </div>
+                    <div class="form_group">
+                      <input type="text" class="form_input" placeholder="Full name" id="name" required>
+                      <label for="name" class="form_label">Full name</label>
+                    </div>
+                    <div class="form_group">
+                      <input type="email" class="form_input" placeholder="Email address" id="email" required>
+                      <label for="email" class="form_label">Email address</label>
+                    </div>
+                    <div class="radio">
+                      <div class="radio_group">
+                        <input type="radio" name="size" class="radio_input" id="small">
+                        <label class="radio_label" for="small">
+                          <span class="radio_button"></span>
+                          Small tour package</label>
+                      </div>
+                      <div class="radio_group">
+                        <input type="radio" name="size" class="radio_input" id="large">
+                        <label class="radio_label" for="large">
+                          <span class="radio_button"></span>
+                          Large tour package</label>
+                      </div>
+                    </div>
+                    <div class="submit">
+                      <input class="btn btn-green" type="submit" name="submit" value="Book Now!">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </section>
         </main>
+
+        <div class="popup" id="popup">
+          <div class="popup_box">
+            <a href="#section_tours" class="popup_close">X</a>
+            <div class="popup_left">
+              <img src="img/nat-8.jpg" alt="Tour photo" class="popup_image">
+              <img src="img/nat-9.jpg" alt="Tour photo" class="popup_image">
+            </div>
+            <div class="popup_right">
+              <h2 class="heading-secondary u-margin-bot-small">Start booking now</h2>
+              <h3 class="heading-tertiary u-margin-bot-small">Important &ndash; please read the given terms</h3>
+              <p class="popup_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quam, quis minima a maxime, voluptate ullam impedit optio vitae libero nobis totam inventore, commodi rerum earum distinctio veritatis. Dicta, quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque recusandae ab odio delectus qui voluptatibus commodi similique libero, temporibus veritatis illo nobis rerum beatae mollitia vel officia, repellendus quod!</p>
+              <a href="#" class="btn btn-green">Book now</a>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+
+          <div class="footer_logo-box">
+            <img src="img/logo-green-2x.png" alt="Natours-Logo" class="footer_logo">
+          </div>
+          <div class="row">
+            <div class="col-1-0f-2">
+              <div class="footer_navigation">
+                <ul class="footer_list">
+                  <li class="footer_item"><a href="#" class="footer_link">Company</a></li>
+                  <li class="footer_item"><a href="#" class="footer_link">Contact Us</a></li>
+                  <li class="footer_item"><a href="#" class="footer_link">Careers</a></li>
+                  <li class="footer_item"><a href="#" class="footer_link">Privacy policy</a></li>
+                  <li class="footer_item"><a href="#" class="footer_link">Terms</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-1-0f-2">
+              <p class="footer_copyright">
+                This webpage is built by <a href="#" class="footer_link">Oshank Singh &copy;</a>. It is an inspired work from <a href="#" class="footer_link">Jonas schmedtmann's</a> Advanced CSS and Sass Course.
+              </p>
+            </div>
+          </div>
+
+        </footer>
 
         <!-- Grids
 
