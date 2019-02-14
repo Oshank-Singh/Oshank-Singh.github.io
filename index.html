@@ -3,214 +3,338 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-        <title>Darkeous &mdash; Your all-in-one booking app</title>
+        <title>nexter &mdash; your home, your freedom</title>
     </head>
-    <body>
-        <div class="container">
-            <header class="header">
-                <img src="img/logo.png" alt="Trillo Logo" class="logo">
-
-                <form action="#" class="search">
-                    <input type="text" class="search_input" placeholder="Search Hotels">
-                    <button class="search_button">
-                      <svg class="search_icon">
-                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
-                      </svg>
-                    </button>
-                </form>
-
-                <nav class="user-nav">
-                  <div class="user-nav_box">
-                    <svg class="user-nav_icon">
-                      <use xlink:href="img/sprite.svg#icon-bookmark"></use>
-                    </svg>
-                    <span class="user-nav_notification">7</span>
-                  </div>
-                  <div class="user-nav_box">
-                    <svg class="user-nav_icon">
-                      <use xlink:href="img/sprite.svg#icon-chat"></use>
-                    </svg>
-                    <span class="user-nav_notification">13</span>
-                  </div>
-                  <div class="user-nav_user">
-                    <img src="img/user.jpg" alt="Oshank Singh" class="user-nav_photo">
-                    <span class="user-nav_name">Oshank</span>
-                  </div>
-                </nav>
-            </header>
-
-            <div class="content">
-
-                <nav class="side-nav">
-                    <ul class="side-bar">
-                        <li class="side-bar_item side-bar_item-active">
-                            <a href="#" class="side-bar_link">
-                                <svg class="side-bar_icon">
-                                    <use xlink:href="img/sprite.svg#icon-home"></use>
-                                </svg>
-                                <span class="side-bar_text">Hotels</span>
-                            </a>
-                        </li>
-                        <li class="side-bar_item">
-                            <a href="#" class="side-bar_link">
-                                <svg class="side-bar_icon">
-                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
-                                </svg>
-                                <span class="side-bar_text">Flight</span>
-                            </a>
-                        </li>
-                        <li class="side-bar_item">
-                            <a href="#" class="side-bar_link">
-                                <svg class="side-bar_icon">
-                                    <use xlink:href="img/sprite.svg#icon-key"></use>
-                                </svg>
-                                <span class="side-bar_text">Car Rentals</span>
-                            </a>
-                        </li>
-                        <li class="side-bar_item">
-                            <a href="#" class="side-bar_link">
-                                <svg class="side-bar_icon">
-                                    <use xlink:href="img/sprite.svg#icon-map"></use>
-                                </svg>
-                                <span class="side-bar_text">Tours</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div class="legal">
-                        &copy; Darkeous App. All rights reserved.
-                    </div>
-                </nav>
-
-                <main class="hotel-view">
-                    <div class="gallery">
-                        <figure class="gallery_item">
-                            <img src="img/hotel-1.jpg" alt="Hotel 1" class="gallery_image">
-                        </figure>
-                        <figure class="gallery_item">
-                            <img src="img/hotel-2.jpg" alt="Hotel 2" class="gallery_image">
-                        </figure>
-                        <figure class="gallery_item">
-                            <img src="img/hotel-3.jpg" alt="Hotel 3" class="gallery_image">
-                        </figure>
-                    </div>
-
-                    <div class="overview">
-                        <h1 class="overview_header">
-                            Hotel K.U.O
-                        </h1>
-
-                        <div class="overview_stars">
-                            <svg class="overview_icon">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
-                            <svg class="overview_icon">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
-                            <svg class="overview_icon">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
-                            <svg class="overview_icon">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
-                            <svg class="overview_icon">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
-                        </div>
-
-                        <div class="overview_location">
-                            <svg class="overview_icon-location">
-                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
-                            </svg>
-                            <button class="btn-inline">Agra, India</button>
-                        </div>
-
-                        <div class="overview_ratings">
-                            <div class="overview_ratings-average">8.6</div>
-                            <div class="overview_ratings-vote">523 votes</div>
-                        </div>
-                    </div>
-
-                    <div class="details">
-                        <div class="description">
-                            <p class="paragraph">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
-                            </p>
-                            <p class="paragraph">
-                              Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
-                            </p>
-                            <ul class="list">
-                              <li class="list_item">Close to Taj Mahal</li>
-                              <li class="list_item">Breakfast included</li>
-                              <li class="list_item">Free Wi-fi in all rooms</li>
-                              <li class="list_item">Air conditioning and Heating</li>
-                              <li class="list_item">Pets allowed</li>
-                              <li class="list_item">We speak most languages</li>
-                              <li class="list_item">Railway station nearby</li>
-                              <li class="list_item">Perfect for families</li>
-                            </ul>
-                            <div class="recommend">
-                              <p class="recommend_count">
-                                  Vivek and 3 other friends recommend this hotel.
-                              </p>
-                              <div class="recommend_friends">
-                                <img src="img/vivek.jpg" alt="Vivek Jain" class="recommend_photo">
-                                <img src="img/ram.jpg" alt="Shri ram" class="recommend_photo">
-                                <img src="img/gopi.jpg" alt="Gopinath Pandey" class="recommend_photo">
-                                <img src="img/sakthi.jpg" alt="Sakthivel" class="recommend_photo">
-                              </div>
-                            </div>
-                        </div>
-                        <div class="user-reviews">
-                            <figure class="review">
-                              <blockquote class="review_text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex consectetur adipisicing.
-                              </blockquote>
-                              <figcaption class="review_box">
-                                <img src="img/logu.jpg" alt="Logesh Jayakumar" class="review_photo">
-                                <div class="review_user">
-                                  <div class="review_user-name">Logesh</div>
-                                  <div class="review_user-date">Aug 06, 2018</div>
-                                </div>
-                                <div class="review_rating">8.5</div>
-                              </figcaption>
-                            </figure>
-                            <figure class="review">
-                              <blockquote class="review_text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
-                              </blockquote>
-                              <figcaption class="review_box">
-                                <img src="img/naruto.jpg" alt="Naruto Boy" class="review_photo">
-                                <div class="review_user">
-                                  <div class="review_user-name">Mr.Naruto</div>
-                                  <div class="review_user-date">feb 23, 2018</div>
-                                </div>
-                                <div class="review_rating">9.6</div>
-                              </figcaption>
-                            </figure>
-
-                            <div class="show-all">
-                              <button class="btn-inline">Show all &rarr;</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cta">
-                      <h2 class="cta_book-now">
-                        Good news! We have 4 rooms available for your selected date!
-                      </h2>
-                      <button class="btn">
-                        <span class="btn-visible">Book Now</span>
-                        <span class="btn-invisible">Only 4 tickets left!</span>
-                      </button>
-                    </div>
-                </main>
-
-            </div>
+    <body class="container">
+        <div class="sidebar">
+          <button class="side_btn"></button>
         </div>
+        <header class="header">
+          <img src="img/logo.png" alt="Nexter logo" class="header_logo">
+          <h3 class="header-3 header-3-dark">Your own home:</h3>
+          <h1 class="header-1">The ultimate personal freedom</h1>
+          <button class="btn header_btn">View our properties</button>
+          <div class="header_seen-text">Seen on</div>
+          <div class="header_seen-logos">
+            <img src="img/logo-bbc.png" alt="BBC Logo">
+            <img src="img/logo-forbes.png" alt="forbes Logo">
+            <img src="img/logo-techcrunch.png" alt="techcrunch Logo">
+            <img src="img/logo-bi.png" alt="bi Logo">
+          </div>
+        </header>
+        <div class="realtor">
+          <h3 class="header-3 mb-re">top 3 realtors</h3>
+          <div class="realtor_list">
+              <img src="img/logu.jpg" alt="Logesh Jayakumar" class="realtor_img">
+              <div class="realtor_detail">
+                <h4 class="header-4 header-4-light">Logesh Jayakumar</h4>
+                <p class="realtor_sold">250 houses sold</p>
+              </div>
+              <img src="img/ram.jpg" alt="Shriram" class="realtor_img">
+              <div class="realtor_detail">
+                <h4 class="header-4 header-4-light">Shriram</h4>
+                <p class="realtor_sold">235 houses sold</p>
+              </div>
+              <img src="img/vivek.jpg" alt="Vivek Kumar" class="realtor_img">
+              <div class="realtor_detail">
+                <h4 class="header-4 header-4-light">Vivek Kumar</h4>
+                <p class="realtor_sold">200 houses sold</p>
+              </div>
+          </div>
+        </div>
+
+        <section class="features">
+            <div class="feature">
+                <svg class="feature-icon">
+                    <use xlink:href="img/sprite.svg#icon-global"></use>
+                </svg>
+                <h4 class="header-4 header-4-dark">World's best luxury homes</h4>
+                <p class="feature-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.</p>
+            </div>
+            <div class="feature">
+                <svg class="feature-icon">
+                    <use xlink:href="img/sprite.svg#icon-trophy"></use>
+                </svg>
+                <h4 class="header-4 header-4-dark">Only the best properties</h4>
+                <p class="feature-text">Voluptatum mollitia quae. Vero ipsum sapiente molestias accusamus rerum sed a eligendi aut quia.</p>
+            </div>
+            <div class="feature">
+                <svg class="feature-icon">
+                    <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+                </svg>
+                <h4 class="header-4 header-4-dark">All homes in top locations</h4>
+                <p class="feature-text">Tenetur distinctio necessitatibus pariatur voluptatibus quidem consequatur harum.</p>
+            </div>
+            <div class="feature">
+                <svg class="feature-icon">
+                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <h4 class="header-4 header-4-dark">New home in one week</h4>
+                <p class="feature-text">Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="feature">
+                <svg class="feature-icon">
+                    <use xlink:href="img/sprite.svg#icon-presentation"></use>
+                </svg>
+                <h4 class="header-4 header-4-dark">Top 1% realtors</h4>
+                <p class="feature-text">Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio necessitatibus pariatur voluptatibus.</p>
+            </div>
+            <div class="feature">
+                <svg class="feature-icon">
+                    <use xlink:href="img/sprite.svg#icon-lock"></use>
+                </svg>
+                <h4 class="header-4 header-4-dark">Secure paayments on Nexter</h4>
+                <p class="feature-text">Pariatur voluptatibus quidem consequatur harum, voluptatum mollitia quae.</p>
+            </div>
+        </section>
+
+        <div class="story_gallery">
+          <img src="img/story-1.jpeg" alt="image-1" class="story_pic-1">
+          <img src="img/story-2.jpeg" alt="image-2" class="story_pic-2">
+        </div>
+        <div class="story_content">
+          <h3 class="header-3 header-3-dark mb-sm">Happy customers</h3>
+          <h2 class="header-2 header-2-dark mb-md">&ldquo;The best decision of our lives&rdquo;</h2>
+          <p class="story_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!</p>
+          <button class="btn">Find your own home</button>
+        </div>
+        <section class="homes">
+
+          <div class="home">
+            <img src="img/house-1.jpeg" alt="House - 1" class="home_img">
+            <svg class="home_like">
+                <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            </svg>
+            <h5 class="home_name">Beautiful family house</h5>
+            <div class="home_location">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+              </svg>
+              <p>Chennai</p>
+            </div>
+            <div class="home_rooms">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+              </svg>
+              <p>5 rooms</p>
+            </div>
+            <div class="home_area">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-expand"></use>
+              </svg>
+              <p>500 ft<sup>2</sup></p>
+            </div>
+            <div class="home_price">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+              </svg>
+              <p>1.2 crores</p>
+            </div>
+            <button class="btn home_btn">Contact Realtors</button>
+          </div>
+
+          <div class="home">
+            <img src="img/house-2.jpeg" alt="House - 2" class="home_img">
+            <svg class="home_like">
+                <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            </svg>
+            <h5 class="home_name">Modern glass villa</h5>
+            <div class="home_location">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+              </svg>
+              <p>Coimbatore</p>
+            </div>
+            <div class="home_rooms">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+              </svg>
+              <p>5 rooms</p>
+            </div>
+            <div class="home_area">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-expand"></use>
+              </svg>
+              <p>750 ft<sup>2</sup></p>
+            </div>
+            <div class="home_price">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+              </svg>
+              <p>52 lakhs</p>
+            </div>
+            <button class="btn home_btn">Contact Realtors</button>
+          </div>
+
+          <div class="home">
+            <img src="img/house-3.jpeg" alt="House - 3" class="home_img">
+            <svg class="home_like">
+                <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            </svg>
+            <h5 class="home_name">Cozy city house</h5>
+            <div class="home_location">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+              </svg>
+              <p>Bangalore</p>
+            </div>
+            <div class="home_rooms">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+              </svg>
+              <p>4 rooms</p>
+            </div>
+            <div class="home_area">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-expand"></use>
+              </svg>
+              <p>600 ft<sup>2</sup></p>
+            </div>
+            <div class="home_price">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+              </svg>
+              <p>1 crore</p>
+            </div>
+            <button class="btn home_btn">Contact Realtors</button>
+          </div>
+
+          <div class="home">
+            <img src="img/house-4.jpeg" alt="House - 4" class="home_img">
+            <svg class="home_like">
+                <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            </svg>
+            <h5 class="home_name">Large spacious villa</h5>
+            <div class="home_location">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+              </svg>
+              <p>Cochin</p>
+            </div>
+            <div class="home_rooms">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+              </svg>
+              <p>6 rooms</p>
+            </div>
+            <div class="home_area">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-expand"></use>
+              </svg>
+              <p>1000 ft<sup>2</sup></p>
+            </div>
+            <div class="home_price">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+              </svg>
+              <p>80 lakhs</p>
+            </div>
+            <button class="btn home_btn">Contact Realtors</button>
+          </div>
+
+          <div class="home">
+            <img src="img/house-5.jpeg" alt="House - 5" class="home_img">
+            <svg class="home_like">
+                <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            </svg>
+            <h5 class="home_name">Compact houses</h5>
+            <div class="home_location">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+              </svg>
+              <p>Hyderabad</p>
+            </div>
+            <div class="home_rooms">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+              </svg>
+              <p>3 rooms</p>
+            </div>
+            <div class="home_area">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-expand"></use>
+              </svg>
+              <p>400 ft<sup>2</sup></p>
+            </div>
+            <div class="home_price">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+              </svg>
+              <p>75 lakhs</p>
+            </div>
+            <button class="btn home_btn">Contact Realtors</button>
+          </div>
+
+          <div class="home">
+            <img src="img/house-6.jpeg" alt="House - 6" class="home_img">
+            <svg class="home_like">
+                <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            </svg>
+            <h5 class="home_name">Modern family apartment</h5>
+            <div class="home_location">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+              </svg>
+              <p>New Delhi</p>
+            </div>
+            <div class="home_rooms">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+              </svg>
+              <p>5 rooms</p>
+            </div>
+            <div class="home_area">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-expand"></use>
+              </svg>
+              <p>800 ft<sup>2</sup></p>
+            </div>
+            <div class="home_price">
+              <svg>
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+              </svg>
+              <p>1.5 crores</p>
+            </div>
+            <button class="btn home_btn">Contact Realtors</button>
+          </div>
+
+        </section>
+
+        <section class="gall">
+          <img src="img/gal-1.jpeg" alt="image-1" class="gallery gallery-1">
+          <img src="img/gal-2.jpeg" alt="image-2" class="gallery gallery-2">
+          <img src="img/gal-3.jpeg" alt="image-3" class="gallery gallery-3">
+          <img src="img/gal-4.jpeg" alt="image-4" class="gallery gallery-4">
+          <img src="img/gal-5.jpeg" alt="image-5" class="gallery gallery-5">
+          <img src="img/gal-6.jpeg" alt="image-6" class="gallery gallery-6">
+          <img src="img/gal-7.jpeg" alt="image-7" class="gallery gallery-7">
+          <img src="img/gal-8.jpeg" alt="image-8" class="gallery gallery-8">
+          <img src="img/gal-9.jpeg" alt="image-9" class="gallery gallery-9">
+          <img src="img/gal-10.jpeg" alt="image-10" class="gallery gallery-10">
+          <img src="img/gal-11.jpeg" alt="image-11" class="gallery gallery-11">
+          <img src="img/gal-12.jpeg" alt="image-12" class="gallery gallery-12">
+          <img src="img/gal-13.jpeg" alt="image-13" class="gallery gallery-13">
+          <img src="img/gal-14.jpeg" alt="image-14" class="gallery gallery-14">
+        </section>
+
+        <footer class="footer">
+            <ul class="nav">
+              <li class="nav_item"><a href="#" class="nav_link">Find your dream home</a></li>
+              <li class="nav_item"><a href="#" class="nav_link">Request proposal</a></li>
+              <li class="nav_item"><a href="#" class="nav_link">Download brochure</a></li>
+              <li class="nav_item"><a href="#" class="nav_link">Contact us</a></li>
+              <li class="nav_item"><a href="#" class="nav_link">Submit your property</a></li>
+              <li class="nav_item"><a href="#" class="nav_link">Come work with us</a></li>
+            </ul>
+            <p class="copy">
+              &copy; Copyright 2019 by Oshank Singh. All rights reserved
+            </p>
+        </footer>
     </body>
 </html>
